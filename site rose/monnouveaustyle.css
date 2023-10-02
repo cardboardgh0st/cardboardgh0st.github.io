@@ -1,0 +1,5 @@
+/*modifie toutes les balises img*/
+h1 {text-align: center;}
+img {width:60vh;
+    height; 200px;} /*comment centrer l'image?*/
+p {text-align: center;font-size:larger;}
