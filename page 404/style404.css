@@ -1,0 +1,13 @@
+body {background-color:khaki}
+
+.header img {float: left; width: 70px; height: 70px;}
+
+.header h1 {position: relative; top: 20px; left: 10px;}
+
+h1 {font-family: "Courier new";font-size:x-large}
+
+h3 {font-family:"Courier new";text-align:center}
+
+p {font-family: "courier new"; font-size: large;text-align:center}
+
+.center {display:block;margin-left:auto;margin-right:auto;width:40%}
