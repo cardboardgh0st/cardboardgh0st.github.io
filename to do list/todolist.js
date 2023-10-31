@@ -11,11 +11,15 @@ function ajouterElement(){
 //vider champ (tjrs dans la fonction)
 monChampTexte.value = ""
 }
+
+
 //passe la souris sur h1-->son s'enclenche
 let monTitre=document.querySelector("h1")
 
-monTitre.addEventListener("mouseover",jouerSon)
+/* 
+    monTitre.addEventListener("mouseover",jouerSon)
 function jouerSon({
     let bruit= new Audio ("link.mp3");
     bruit.play();
 })
+*/
