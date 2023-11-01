@@ -35,13 +35,13 @@ function jouerSon({
     bruit.play();
 })
 */
-//marche pas
+//marche pas. "math is not defined"
 let boutonTrois = document.querySelector("#bouton_de")
 boutonDeux.addEventListener("click", lancerDes)
 
 
 function lancerDes(){
-    let nombreAlea = math.floor(math.random()*6)+1;
+    let nombreAlea = math.floor (math.random()*6)+1;
     console.log(nombreAlea)
 
     let de=document.createElement("div");
