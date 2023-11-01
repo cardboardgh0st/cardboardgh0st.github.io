@@ -1,2 +1,4 @@
 /*peut import une font */
 h1{font-family: ;font-size:15pt;letter-spacing: 5px;}
+#bouton_ajouter{background-color: blueviolet;color: bisque;}
+div{width: 25px; height: :25px; padding: 5px; border-radius:5px;border-style:solid}
