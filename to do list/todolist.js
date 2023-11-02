@@ -35,16 +35,20 @@ function jouerSon({
     bruit.play();
 })
 */
-//marche pas. "math is not defined"
+
+//marche pas. "math is not defined", ligne 45. faire un let math= mais =quoi?
 let boutonTrois = document.querySelector("#bouton_de")
-boutonDeux.addEventListener("click", lancerDes)
+boutonTrois.addEventListener("click", lancerDes)
 
-
+let nombreDes=150
 function lancerDes(){
-    let nombreAlea = math.floor (math.random()*6)+1;
+    for(let i=0; i<nombreDes; i++){
+    let nombreAlea = Math.floor (Math.random()*6)+1;
     console.log(nombreAlea)
 
     let de=document.createElement("div");
+    if(nombreAlea === 6){de.classList.add("top")}
     de.innerText=nombreAlea
     document.body.appendChild(de)
+}
 }
