@@ -36,7 +36,7 @@ function jouerSon({
 })
 */
 
-//marche pas. "math is not defined", ligne 45. faire un let math= mais =quoi?
+
 let boutonTrois = document.querySelector("#bouton_de")
 boutonTrois.addEventListener("click", lancerDes)
 
@@ -51,4 +51,11 @@ function lancerDes(){
     de.innerText=nombreAlea
     document.body.appendChild(de)
 }
+}
+let boutonQuatre = document.querySelector("#bouton_deffacer")
+boutonQuatre.addEventListener("click",effacerDes)
+function effacerDes(){
+    let tous_les_des = document.querySelectorAll("div")
+    for(let d=0; d<tous_les_des.length; d++)
+    tous_les_des[d].remove();
 }
