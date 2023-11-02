@@ -56,6 +56,19 @@ let boutonQuatre = document.querySelector("#bouton_deffacer")
 boutonQuatre.addEventListener("click",effacerDes)
 function effacerDes(){
     let tous_les_des = document.querySelectorAll("div")
-    for(let d=0; d<tous_les_des.length; d++)
-    tous_les_des[d].remove();
+        for(let d=0; d<tous_les_des.length; d++)
+        tous_les_des[d].remove();
+}
+let boutonCinq = document.querySelector("#bouton_tout_effacer")
+boutonCinq.addEventListener("click", effacerTout)
+function effacerTout(){
+//effacer la liste
+    let tous_les_li = document.querySelectorAll("li");
+        for (let compteur=0 ;compteur<tous_les_li.length ; compteur++){
+            tous_les_li[compteur].remove();
+        }
+//effacer les dés
+    {let tous_les_des = document.querySelectorAll("div")
+        for(let d=0; d<tous_les_des.length; d++)
+        tous_les_des[d].remove();   }
 }
