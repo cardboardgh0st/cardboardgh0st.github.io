@@ -19,8 +19,5 @@ function générerImage(){
     for (let i = 0; i < nombreentré.value; i++) {
         let monImage = document.createElement("img")
         monImage.setAttribute("src", "https://www.svgheart.com/wp-content/uploads/2021/11/halloween-pumpkin-free-svg-file-SvgHeart.Com.png")
-        document.body.appendChild(monImage)
-        
-    }
-
+        document.body.appendChild(monImage)}
      }
